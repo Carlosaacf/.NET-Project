@@ -6,13 +6,10 @@ namespace DigitalInnovationOne
     {
         static void Main(string[] args)
         {
-           int numeroDeVezes = 10;
-
-           for (int i=0; i < numeroDeVezes; i++)
-        {
-        
-            Console.WriteLine($"Bem vindo ao Curso  de .NET {i}");
-                            
+           
+           foreach (string s in args)
+          {
+            Console.WriteLine(s);             
           }
         }
     }
